@@ -1,0 +1,15 @@
+﻿  StdAfx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  MainFrm.cpp
+  GlobalVariables.cpp
+c:\work\teaching\2022\cg\ppt\ch3 程序\反走样直线段\antialiasingline\cgpainter_antialiasingline\globalvariables.cpp(1): warning C4603: “_MY_GLOBAL_VARIABLE_DEFINITION_FILE_”: 未定义宏或在预编译头使用后定义发生改变
+          将宏添加到预编译头中，而不是在此处定义
+          c:\work\teaching\2022\cg\ppt\ch3 程序\反走样直线段\antialiasingline\cgpainter_antialiasingline\globalvariables.cpp(3) : 使用预编译头
+  CGPainterView.cpp
+  CGPainterDoc.cpp
+  CGPainter.cpp
+c:\work\teaching\2022\cg\ppt\ch3 程序\反走样直线段\antialiasingline\cgpainter_antialiasingline\cgpainter.cpp(60): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(5361) : 参见“CWinApp::Enable3dControls”的声明
+  正在生成代码...
+CGPainter.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  CGPainter.vcxproj -> C:\work\teaching\2022\cg\ppt\ch3 程序\反走样直线段\antialiasingLine\CGPainter_antialiasingLine\.\Debug\CGPainter.exe

@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CGPainter - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/CGPainter.res" /d "_DEBUG" /d "_AFXDLL" "H:\work\teaching\2013 autumn\cg\EXPERIMENTS\project4\polygonfill\CGPainter.rc"" 
+Creating temporary file "C:\Users\dell\AppData\Local\Temp\RSPA9AE.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/CGPainter.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\work\teaching\2013 autumn\cg\EXPERIMENTS\project4\polygonfill\CGPainter.cpp"
+"H:\work\teaching\2013 autumn\cg\EXPERIMENTS\project4\polygonfill\CGPainterDoc.cpp"
+"H:\work\teaching\2013 autumn\cg\EXPERIMENTS\project4\polygonfill\CGPainterView.cpp"
+"H:\work\teaching\2013 autumn\cg\EXPERIMENTS\project4\polygonfill\GlobalVariables.cpp"
+"H:\work\teaching\2013 autumn\cg\EXPERIMENTS\project4\polygonfill\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\Users\dell\AppData\Local\Temp\RSPA9AE.tmp" 
+Creating temporary file "C:\Users\dell\AppData\Local\Temp\RSPA9AF.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/CGPainter.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\work\teaching\2013 autumn\cg\EXPERIMENTS\project4\polygonfill\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\dell\AppData\Local\Temp\RSPA9AF.tmp" 
+Creating temporary file "C:\Users\dell\AppData\Local\Temp\RSPA9B0.tmp" with contents
+[
+/nologo /stack:0x3b9ac9ff,0x989680 /subsystem:windows /incremental:yes /pdb:"Debug/CGPainter.pdb" /debug /machine:I386 /out:"Debug/CGPainter.exe" /pdbtype:sept 
+".\Debug\CGPainter.obj"
+".\Debug\CGPainterDoc.obj"
+".\Debug\CGPainterView.obj"
+".\Debug\GlobalVariables.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\CGPainter.res"
+]
+Creating command line "link.exe @C:\Users\dell\AppData\Local\Temp\RSPA9B0.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CGPainter.cpp
+CGPainterDoc.cpp
+CGPainterView.cpp
+H:\work\teaching\2013 autumn\cg\EXPERIMENTS\project4\polygonfill\CGPainterView.cpp(277) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+H:\work\teaching\2013 autumn\cg\EXPERIMENTS\project4\polygonfill\CGPainterView.cpp(278) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+H:\work\teaching\2013 autumn\cg\EXPERIMENTS\project4\polygonfill\CGPainterView.cpp(284) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+H:\work\teaching\2013 autumn\cg\EXPERIMENTS\project4\polygonfill\CGPainterView.cpp(285) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+H:\work\teaching\2013 autumn\cg\EXPERIMENTS\project4\polygonfill\CGPainterView.cpp(303) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+H:\work\teaching\2013 autumn\cg\EXPERIMENTS\project4\polygonfill\CGPainterView.cpp(304) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+GlobalVariables.cpp
+MainFrm.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+CGPainter.exe - 0 error(s), 6 warning(s)
+</pre>
+</body>
+</html>
